@@ -2,7 +2,7 @@
   font-family: roboto, sans-serif;
   font-weight: 200;
   font-style: normal;
-  font-size: 7vw;
+  font-size: 7rem;
 }
 
 .text-front {
@@ -13,4 +13,25 @@
 .small-img {
   width: 100px;
   height: auto;
+}
+
+.beach-banner {
+  object-position: center;
+  object-fit: cover;
+  width: 100vw;
+  height: 60vh;
+}
+
+.body-bg {
+  background-color: beige;
+}
+
+.text-border {
+  border: .3vw double lightblue;
+}
+
+.text {
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
