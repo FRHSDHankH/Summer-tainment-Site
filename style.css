@@ -55,8 +55,8 @@
 }
 
 .text {
-  font-family: roboto, sans-serif;
-  font-weight: 400;
+  font-family: "portofino", sans-serif;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -75,7 +75,10 @@
   visibility: hidden;
   opacity: 0;
   transition: .5s;
-  padding: 2vw;
+  padding: 2.5vw;
+  font-family: "portofino", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .wrap:hover .caption {
@@ -91,4 +94,12 @@
 .wrap:hover .card {
   transform: scale(1);
   opacity: 0.3;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+footer {
+  border-top: .3vw double lightblue;
 }
